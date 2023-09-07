@@ -1,9 +1,25 @@
-﻿var myAge = 33;
-int myAge2 = 33;
-int newAge = myAge + 5;
-Console.WriteLine(newAge);
-uint newVar = uint.MinValue;
-long newVar2 = long.MaxValue;
+﻿var name = "Kamil";
+var gender = "Mężczyzna";
+var age = 19;
 
-float myNumber = float.MaxValue;
-double newNumber2 = double.MinValue;
+if (gender == "Kobieta")
+{
+    if (age < 30)
+    {
+        Console.WriteLine("Kobieta poniżej lat 30");
+    }
+}
+else if (name == "Ewa")
+{
+    if (age == 33)
+    {
+        Console.WriteLine("Ewa lat 33");
+    }
+}
+else if (gender == "Mężczyzna")
+{
+    if (age > 18)
+    {
+        Console.WriteLine("Pełnoletni Mężczyzna");
+    }
+}
