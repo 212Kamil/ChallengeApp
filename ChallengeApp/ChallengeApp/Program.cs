@@ -1,25 +1,14 @@
-﻿var name = "Kamil";
-var gender = "Mężczyzna";
-var age = 19;
+﻿int [] grades = new int[5];
+string[] dayOfWeeks = new string[7];
+dayOfWeeks[0] = "poniedziałek";
+dayOfWeeks[1] = "wtorek";
+dayOfWeeks[2] = "środa";
+dayOfWeeks[3] = "czwartek";
+dayOfWeeks[4] = "piątek";
+dayOfWeeks[5] = "sobota";
+dayOfWeeks[6] = "niedziela";
 
-if (gender == "Kobieta")
+for(int i=0;i < dayOfWeeks.Length; i=i+1)
 {
-    if (age < 30)
-    {
-        Console.WriteLine("Kobieta poniżej lat 30");
-    }
-}
-else if (name == "Ewa")
-{
-    if (age == 33)
-    {
-        Console.WriteLine("Ewa lat 33");
-    }
-}
-else if (gender == "Mężczyzna")
-{
-    if (age > 18)
-    {
-        Console.WriteLine("Pełnoletni Mężczyzna");
-    }
+    Console.WriteLine(dayOfWeeks[i]);
 }
